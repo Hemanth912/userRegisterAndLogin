@@ -28,7 +28,7 @@ public class User{
     private int id;
 
     @Column
-    private String name;
+    private String Username;
 
     @Column
     @JsonIgnore
@@ -39,6 +39,9 @@ public class User{
 
     @Column
     private String phoneNo;
+
+    @Column
+    private String name;
 
     @Column
     private String authorities;
