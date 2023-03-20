@@ -11,4 +11,8 @@ public class Role {
 
     @Column
     private String name;
+
+    @ManyToMany
+    @JoinColumn
+    private User user;
 }
